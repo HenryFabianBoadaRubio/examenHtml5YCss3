@@ -183,6 +183,14 @@ pagina1__producto{
 .text__oculta p{
     font-size: 1.2rem;
 }
+.text__oculta input{
+    position: absolute;
+    border: 1px solid red;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: red;
+}
 .text__oculta button{
     width: 7rem;
     font-size: 1rem;
