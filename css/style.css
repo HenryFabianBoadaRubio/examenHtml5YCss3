@@ -55,12 +55,14 @@ pagina1__producto{
     width: 25%;
     height: 450px;
     flex-direction: column;
-    /* border: 1px solid blue; */
+    
+    background-color: rgba(226, 158, 31, 0.185);
     align-items:center ;
     gap: 0.5rem;
     margin-left: 7rem;
     padding: 10px;
     margin-top: 1rem;
+    border-radius: 20px;
     
 
     
@@ -74,6 +76,10 @@ pagina1__producto{
     /* border: 1px solid blue; */
     object-fit: contain;
 }
+.producto__vistas img:hover{
+    scale: 1.1;
+}
+
 .moto{
    
     
@@ -87,6 +93,9 @@ pagina1__producto{
     margin-top: 2rem;
     object-fit: contain;
     margin-left: 7rem;
+}
+.moto img:hover{
+    scale: 1.1;
 }
 .text{
     padding: 10px;
@@ -116,6 +125,9 @@ pagina1__producto{
     font-size: 1rem;
     height: 2.5rem;
     background-color: orange;
+}
+.text button:hover{
+    scale: 1.1;
 }
 
 
@@ -160,6 +172,9 @@ pagina1__producto{
     object-fit: contain;
     justify-content: center;
 }
+.moto__oculta img:hover{
+    scale: 1.1;
+}
 .text__oculta{
     padding: 10px;
     display: flex;
@@ -196,6 +211,9 @@ pagina1__producto{
     font-size: 1rem;
     height: 2.5rem;
     background-color: orange;
+}
+.text__oculta button:hover{
+    scale: 1.1;
 }
 
 /*CAJA OCULTA FIN*/
